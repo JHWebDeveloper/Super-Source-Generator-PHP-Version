@@ -1,0 +1,27 @@
+{
+  "name": "super-source-generator-php-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "minify-js": "babel js/main.js --watch --out-file js/main.min.js",
+    "minify-css": "postcss css/main.css -o css/main.min.css -w",
+    "minify": "concurrently \"npm run minify-js\" \"npm run minify-css\""
+  },
+  "author": "Jonathan Hamilton",
+  "license": "CC-BY-NC-4.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-preset-minify": "^0.5.1",
+    "concurrently": "^5.1.0",
+    "core-js": "^3.6.4",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.26",
+    "postcss-cli": "^7.1.0",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "browserslist": "defaults"
+}
