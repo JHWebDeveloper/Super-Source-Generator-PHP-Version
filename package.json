@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.php",
   "scripts": {
-    "minify-js": "babel js/main.js --watch --out-file js/main.min.js",
+    "minify-js": "babel js/main.js --watch --out-file js/main.min.js --no-comments",
     "minify-css": "postcss css/main.css -o css/main.min.css -w",
     "minify": "concurrently \"npm run minify-js\" \"npm run minify-css\""
   },
