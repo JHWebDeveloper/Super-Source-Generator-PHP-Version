@@ -3,17 +3,17 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>Super Source Generator</title>
   <meta name="description" content="Super Source Generator is a web app developed by Jonathan Hamilton to help Ch9 employees produce single or multiple source overlays on the fly. No photoshop experience necessary." />
     
   <link rel="stylesheet" href="css/main.min.css" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 	
   <link rel="preload" href="js/main.min.js" as="script" />
   <link rel="prerender" href="success.html" />
-	<link rel="prerender" href="instructions.html" />
+  <link rel="prerender" href="instructions.html" />
     
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
@@ -25,8 +25,8 @@
     <aside>
       <a class="material-icons" href="instructions.html" target="_blank" title="View Instructions">info_outline</a>
     </aside>
-	</header>
-	<main>
+  </header>
+  <main>
     <noscript>
       <style>
         main > :nth-child(n+2) { display: none; }
@@ -55,15 +55,15 @@
         <label for="premade">Save to Premade Folder</label><br />
       </fieldset>
       <input type="submit" name="generate" value="Generate" title="Generate Source Super" disabled />
-		</form>
-      <div>
-        <svg viewBox="0 0 200 200">
-          <rect x="50.367" y="50" width="25" height="99.999"></rect>
-          <rect x="87.867" y="50" width="25" height="99.999"></rect>
-          <rect x="125.367" y="50" width="25" height="99.999"></rect>
-        </svg>
-      </div>
-	</main>
+    </form>
+    <div>
+      <svg viewBox="0 0 200 200">
+        <rect x="50.367" y="50" width="25" height="99.999"></rect>
+        <rect x="87.867" y="50" width="25" height="99.999"></rect>
+        <rect x="125.367" y="50" width="25" height="99.999"></rect>
+      </svg>
+    </div>
+  </main>
   <script src="js/main.js" defer></script>
 </body>
 </html>
